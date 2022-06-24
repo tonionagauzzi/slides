@@ -1,0 +1,89 @@
+/* @theme custom */
+
+@import "gaia";
+
+.slide_page {
+  font-weight: bold;
+  transform: scale(2);
+  margin: 12px;
+}
+
+header {
+  color: whitesmoke;
+  font-size: 0.6rem;
+  height: 48px;
+  margin-bottom: 0px;
+  padding: 0px 20px 0px 20px;
+}
+
+section::after,
+footer {
+  color: whitesmoke;
+  font-size: 0.5rem;
+  height: 48px;
+  margin-bottom: 0px;
+  padding: 0px 24px 0px 24px;
+  text-align: right;
+}
+
+section.top {
+  padding: 0px 0px 0px 0px;
+}
+
+section {
+  background-color: rgb(17, 57, 123);
+  color: whitesmoke;
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans", Meiryo, sans-serif;
+  font-size: 48px;
+}
+
+section.top a {
+  color: aqua;
+}
+
+section.top h1 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  margin-top: 220px;
+  text-align: center;
+}
+
+section.top h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  margin-top: 240px;
+  text-align: center;
+}
+
+section.top h3 {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  margin-top: 240px;
+  text-align: center;
+}
+
+section.normal {
+  padding: 80px 50px 80px 50px;
+}
+
+section.normal a {
+  color: aqua;
+}
+
+section.normal h1 {
+  font-size: 2rem;
+  border-bottom: 2px solid gray;
+}
+
+section.normal h2 {
+  font-size: 1.8rem;
+}
+
+section.normal h3 {
+  font-size: 1.6rem;
+}
+
+section.final {
+  padding: 0px 0px 0px 0px;
+}
